@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title> NodeProp - Especializada em Soluções Digitais </title>
+    	<meta name="description" content="Agência especializada em Marketing Digital, Criação de Sites e Aplicativos Mobile.">
+    	<meta name="keywords" content="Agência digital, Marketing, Sites">
+    	<meta name="robots" content="index, follow">
+    	<meta name="author" content="Rodrigo Oliveira">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  
+    </head>
+    <body>
+        <!-- CABEÇALHO --> 
+        <header class="cabecalho container">
+           <a href="index.html"><h1 class="logo"> NodeProp - Especializada em Soluções Digitais </h1></a>
+           <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+           <nav class="menu">
+               <a class="btn-close"><i class="fa fa-times"></i></a>
+               <ul>
+                   <li><a [routerLink]="['/']">Home</a></li>
+                   <li routerLinkActive="active"><a [routerLink]="['/artemis']">Artemis</a></li>
+                   <li routerLinkActive="active"><a [routerLink]="['/vr']">VR</a></li>
+                   <li routerLinkActive="active"><a [routerLink]="['/sobre']">Sobre</a></li>
+
+               </ul>
+           </nav>          
+        </header>
+    </body>
+</html>
