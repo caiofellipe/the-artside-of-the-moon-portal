@@ -24,11 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/paroller.js/dist/jquery.paroller.min.js"
             ]
           },
           "configurations": {
@@ -123,6 +125,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "app-web"
 }

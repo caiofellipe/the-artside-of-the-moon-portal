@@ -6,16 +6,22 @@ import * as $ from 'jquery';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
-    $(".btn-menu").click(function(){
-      $(".menu").show();
+    $('.btn-menu').click(() => {
+      $(".menu").toggle("slow");
     });
-    $(".btn-close").click(function(){
-      $(".menu").hide();
+
+    $('.btn-close').click(() => {
+      $(".menu").toggle("hide");
+      
     });
+
+    $('.closed').click(() => {
+      $('.menu').hide();
+    });
+    
   }
 
 }
