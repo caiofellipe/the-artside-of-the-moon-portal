@@ -1,0 +1,33 @@
+.lead {
+    color: #fff;
+}
+
+h1 {
+    margin-left: 5px;
+    font-family: Gill Sans Extrabold, sans-serif;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 30px;
+}
+
+.header-paralax {
+    border-radius: 5px;
+    background-image: url(../../assets/img/257_detail_as08-13-2225_orig.jpg);
+    background-position: center top;
+    /* Para a imagem não se repitir */
+    background-repeat: no-repeat;
+    /* Para a imagem preencher toda a tela do site */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.my-rocket {
+    overflow: hidden;
+}
+
+.content-1-paralax {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
